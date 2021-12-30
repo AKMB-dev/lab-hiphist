@@ -1,0 +1,176 @@
+div#main p, div#main li, div#main a   {
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.button { margin: 5px; }
+
+.lesArticles h1, .lesArticles h2, .lesArticles h3, .lesArticles h4, .lesArticles header  {
+  text-align: center;
+}
+
+.telecharger {  
+  float: right;
+}
+
+.fleches {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* card effect for images */
+.card {
+  box-shadow: 5px 5px 6px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+  border: 1px solid black;  
+}
+
+.card:hover {
+  box-shadow: 10px 10px 9px 0 rgba(0,0,0,0.2);
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border:none;
+}
+
+
+/* logo sur toutes les pages */
+img#logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+article#presentation,
+section#membresPermanents,
+section#offresDeFormation,
+section#programmes,
+section#logique,
+section#aLaUne,
+section#ouvrages,
+section#publicationsParChercheur,
+section#aProposDeNunya {
+  margin-top: 30px;
+}
+
+/* la page home */
+div#cpresentation {
+  height: 1500px;
+}
+div#cadministration {
+  height: 240px;
+  margin-bottom: 20px;
+}
+div#cactualite {
+  height: 1300px;
+  margin-bottom: 20px;
+}
+div#cactualite p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+div#cnousContacter {height: 470px;}
+
+
+/* la page membres */
+div#cmembresPermanents {
+  height: 350px
+}
+div#cmembresTemporaires {
+  height: 1050px
+}
+div#cmembresAssocies {
+  height: 610px
+}
+div#cmembresFondateurs {
+  height: 1000px
+}
+
+/* la page equipes.html */
+div#clogique {
+  height: 475px;
+}
+div#cbioethique {
+  height: 385px;
+}
+
+/* la page formations.html*/
+div#coffresDeFormation {
+  height: 400px;
+}
+div#cinitiationPedagogique {
+  height: 500px;
+}
+div#dea-table-wrapper,
+div#master-table-wrapper,
+div#doctorat-table-wrapper {
+  margin-top: 30px;
+}
+div#cdea {
+  height: 710px;
+}
+div#cmaster {
+  height: 950px;
+}
+div#cdoctorat {
+  height: 1000px;
+}
+
+/* la page recherches */
+div#cprogrammes {
+  height: 1600px;
+}
+div#crencontres {
+  height: 600px;
+}
+
+
+/* la page publications */
+article.livres {
+  min-height: 650px;
+  clear: both;
+}
+article#livre7 {
+  min-height: 750px;
+}
+
+div#couvrages {
+  height: 5950px;
+}
+
+
+div#cpublicationsParChercheur {
+  height: 330px;  
+}
+
+/* revue nunya */
+div#cpolitiqueDePublication {
+  height: 770px;  
+}
+div#cnormesEditoriales {
+  height: 1630px;  
+}
+div#cethiqueEtDeontologie {
+  height: 500px;  
+}
+div#csoumissionEtEvaluation {
+  height: 710px;
+}  
+article#politiqueDePublication,
+article#normesEditoriales
+article#ethiqueEtDeontologie
+article#soumissionEtEvaluation {
+  margin-top: 30px;  
+}
+div#carchivesDeNunya {
+  height: 500px;  
+}
+
+
+/* la page aLaUne.html */
+div#caLaUne {
+  height: 1800px;
+}
+
+
